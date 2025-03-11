@@ -1,0 +1,61 @@
+ 
+
+touch filename	to create a file
+
+rm filename 	to remove a file
+mkdir d1 	to create a directory
+ls 		list of what have 
+rmdir d1 	to remove directory
+mkdir d1 d2 d3 d4 	to create multiple directories
+rmdir d2 d3 		to remove d2 and d3 directories
+cd d1 			to change directory
+cd .. 			to exit directory
+rm -rf d1 		non empty directory delete
+06--02-2025
+rm * 			to remove all files
+To copy file1 data to file2 ( "cp file1 file2 ") same data visibile on both files 
+To move file1 data to file2 data (" mv file1 file2") data visible in only moved file
+cat file1 	To see content in file1 
+vi file1 	to open editor 
+press " insert button "
+enter data what we want to type/ edit content
+press "esc button "
+press shith with collon" : " wq!
+ls -l 	to view in list formate
+ls -a 	to see hidden files
+rm .filename 	to remove hidden files
+ 07--02-2025
+cat f1 it visible file1 file2 file3 file4 file5 file6 file7 file8
+tac f1 it visible file8 file7 file6 file5 file4 file3 file2 file1
+
+
+to creating a file (f1) |  			touch f1
+to create multiple files (f2 to f8)|    	touch f{1..8}
+to check its created are not these files list of files |  	ls
+to enter/edit data into any file i choose here file3  | vi f3(enter insert, and type the data what you want, press 'esc' " :wq! "
+to check what data in f3 | cat f3
+to remove file3 | rm f3
+to remove any file with forcefull (with data)| rm -rf file3
+to remove every files with forcefully | rm -rf *
+to copy file1 data into file2 | cp file1 file2
+to move file2 to file1 | mv file2 file1
+to create directory | mkdir d1 
+to go for directory | cd d1 (d1= directory name)
+to get out for directory | cd 
+undo "esc+u"
+from bottom line to top line "esc+gg"
+from top to bottom "shift+g"
+to delete data on line "dd"
+to delete selected lines like 7 |  "esc+7+dd"
+to set the line numbers in file data | ":set number"
+to clear line numbers in file data |":set nonu"
+save the file |":w"
+save and exit in file |":wq!"
+without save and exit |":q!"
+ 
+
+
+
+
+
+  
